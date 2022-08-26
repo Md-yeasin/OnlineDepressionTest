@@ -64,3 +64,9 @@
     color: #154b5e;
     border: 1px solid #d0d9e3;
 }
+input:checked + label {
+    color: #f1f4f5;
+    background-color: #1fb4bb;
+    border: #1fb4bb;
+    
+}
