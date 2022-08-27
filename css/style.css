@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
 .tittle{
     color: #237591;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -63,4 +69,67 @@
     background-color: #f1f4f5;
     color: #154b5e;
     border: 1px solid #d0d9e3;
+}
+input:checked + label {
+    color: #f1f4f5;
+    background-color: #1fb4bb;
+    border: #1fb4bb;
+    
+}
+#result{
+    display: none;
+    padding: 20px 0px;
+}
+.resultinside{
+    background-color: #1fb4bb;
+    color: #ffffff;
+    border-radius: 0px 25px 0px 25px;
+    padding: 20px;
+    width: 600px;
+}
+.resultinside p{
+   font-size: 20px;
+   font-weight: bold;
+}
+.resultinside h1{
+   font-weight: bold;
+}
+.urscore{
+    background-color: #1fb4bb;
+    color: #ffffff;
+    border-radius: 0px 25px 0px 25px;
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.anothertest{
+    text-decoration: none;
+    background-color: #1fb4bb;
+    color: #ffffff;
+    border-radius: 0px 25px 0px 25px;
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.resultdetails{
+    width: 800px;
+    color: #237591;
+    background-color: #f7ffff;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+.resultdetails p{
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 500;
+}
+.resultdetails h3{
+    font-weight: 700;
+    padding: 20px 0px;
 }
