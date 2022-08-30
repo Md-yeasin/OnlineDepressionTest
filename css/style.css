@@ -77,7 +77,7 @@ input:checked + label {
     
 }
 #result{
-    display: none;
+    /* display: none; */
     padding: 20px 0px;
 }
 .resultinside{
