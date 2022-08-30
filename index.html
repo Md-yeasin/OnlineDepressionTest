@@ -9,7 +9,8 @@
     
 </head>
 <body>
-        <div id="result" class="container">
+            
+        <div id="result" class="container" style="display:none"> <!--div for showing the result-->
             <div class="row"><h1 class="tittle">Your Result is: </h1></div>
             <div class=" row d-flex d-flex justify-content-center">
                 <div class="resultinside ">
@@ -20,12 +21,13 @@
             <div class="row">
                 <div class="col ">
                     <div class="urscore" style="float: right;">
-                        <p id="urscore">About Your Score : 10/100</p>
+                        <p id="dynamicscore">About Your Score : 10/100</p>
                     </div>
                 </div>
                 <div class="col ">
                     <div class="urscore anothertest" style="float: left;">
-                        <p id="urscore">Take Another Mental Health Test</p>
+                        <p id="">Take Another Mental Health Test</p> 
+                      
                     </div>
                 </div>
             </div>
@@ -36,7 +38,9 @@
                 </div>
             </div>
         </div>
- 
+
+
+        <!--Test Page-->
 
     <div id="otcontentbody" class="container" style="margin-top: 30px; margin-bottom: 30px;">
             <h1 class="tittle">Depression Test</h1>
@@ -207,6 +211,8 @@
                     <label class="btn btn-label" for="option104">Nearly Every Day</label>
                 </div>
             </div>
+
+            <!--Submit button-->
             <div class="col-auto">
                 <button type="submit" class="btn submitbtn" onclick="check()">See your result</button>
               </div>
